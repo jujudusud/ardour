@@ -1878,11 +1878,11 @@ msgstr "Suivre l'intervalle"
 
 #: ardour_ui2.cc:448 ardour_ui_ed.cc:473
 msgid "Punch|In"
-msgstr ""
+msgstr "Ent."
 
 #: ardour_ui2.cc:449 ardour_ui_ed.cc:477
 msgid "Punch|Out"
-msgstr ""
+msgstr "Sor."
 
 #: ardour_ui2.cc:456
 msgid "Disable PDC"
@@ -2400,7 +2400,7 @@ msgstr "Arrêter"
 
 #: ardour_ui_ed.cc:321
 msgid "Roll"
-msgstr "\"Roll\""
+msgstr "Avancer"
 
 #: ardour_ui_ed.cc:325 ardour_ui_ed.cc:327
 msgid "Start/Stop"
@@ -2569,7 +2569,7 @@ msgstr "Punch-Out"
 
 #: ardour_ui_ed.cc:480
 msgid "Punch In/Out"
-msgstr "Punch"
+msgstr "Punch In/Out"
 
 #: ardour_ui_ed.cc:481
 msgid "In/Out"
@@ -3563,7 +3563,7 @@ msgstr "Régler sur la tête"
 
 #: audio_clock.cc:2208
 msgid "Locate to This Time"
-msgstr "Placer à Cette Position"
+msgstr "Placer à cette position"
 
 #: audio_clock.cc:2211
 msgid "Copy to clipboard"
@@ -3600,7 +3600,7 @@ msgstr "Amplitude crête :"
 
 #: audio_region_editor.cc:89
 msgid "Polarity:"
-msgstr ""
+msgstr "Polarité :"
 
 #: audio_region_editor.cc:100
 msgid "Calculating..."
@@ -3818,7 +3818,7 @@ msgstr "???"
 
 #: automation_time_axis.cc:539
 msgid "clear automation"
-msgstr "effacer l'automation"
+msgstr "effacer l'automatisation"
 
 #: automation_time_axis.cc:643
 msgid "Automation|Off"
@@ -3826,7 +3826,7 @@ msgstr "Désactiver"
 
 #: automation_time_axis.cc:646 gain_meter.cc:824
 msgid "Automation|Manual"
-msgstr "Manuel"
+msgstr "Manuelle"
 
 #: automation_time_axis.cc:664
 msgid "Lollipops"
@@ -4816,6 +4816,8 @@ msgstr "Mode intervalle (sélectionner des intervalles de temps)"
 #: editor.cc:3684
 msgid "Grid Mode (edit tempo-map, drag/drop music-time grid)"
 msgstr ""
+"Mode grille (édition de la carte de tempo, glisser/déposer de la grille de "
+"temps musical)"
 
 #: editor.cc:3685
 msgid "Draw Mode (draw and edit gain/notes/automation)"
@@ -5175,7 +5177,7 @@ msgstr "Auto-Connexion"
 #: editor_actions.cc:128 rc_option_editor.cc:4912 route_time_axis.cc:278
 #: route_time_axis.cc:816 vca_time_axis.cc:77 vca_time_axis.cc:461
 msgid "Automation"
-msgstr "Automation"
+msgstr "Automatisation"
 
 #: editor_actions.cc:129
 msgid "Crossfades"
@@ -5920,11 +5922,12 @@ msgstr ""
 
 #: editor_actions.cc:564
 msgid "Locate to Marker on Click"
-msgstr ""
+msgstr "Placer sur le repère en cliquant"
 
 #: editor_actions.cc:565
+#, fuzzy
 msgid "Locate To Marker When Transport Is Not Rolling "
-msgstr ""
+msgstr "Placer sur le repère quand le transport est immobile"
 
 #: editor_actions.cc:566
 msgid "Next Marker Click Mode"
@@ -6290,20 +6293,24 @@ msgid "Quantize Selected Notes"
 msgstr "Quantifier les notes sélectionnées"
 
 #: editor_actions.cc:868
+#, fuzzy
 msgid "Split Selected Notes on grid boundaries"
-msgstr ""
+msgstr "Fractionner les notes sélectionnées sur les limites de la grille"
 
 #: editor_actions.cc:869
+#, fuzzy
 msgid "Split Selected Notes into more pieces"
-msgstr ""
+msgstr "Fractionner les notes sélectionnées en plusieurs morceaux"
 
 #: editor_actions.cc:870
+#, fuzzy
 msgid "Split Selected Notes into less pieces"
-msgstr ""
+msgstr "Fractionner les notes sélectionnées en moins de morceaux"
 
 #: editor_actions.cc:871
+#, fuzzy
 msgid "Join Selected Notes"
-msgstr ""
+msgstr "Joindre les notes sélectionnées"
 
 #: editor_actions.cc:895 editor_actions.cc:1189
 msgid "Draw Velocity"
@@ -6481,7 +6488,7 @@ msgstr "Enveloppe active"
 
 #: editor_actions.cc:1980
 msgid "Invert Polarity"
-msgstr ""
+msgstr "Inverser la polarité"
 
 #: editor_actions.cc:1984
 msgid "Deinterlace Into Layers"
@@ -6627,7 +6634,7 @@ msgstr ""
 
 #: editor_audio_import.cc:332
 msgid "import"
-msgstr ""
+msgstr "Importer"
 
 #: editor_audio_import.cc:402 editor_pt_import.cc:95 editor_videotimeline.cc:95
 msgid "Cancel Import"
@@ -7041,7 +7048,7 @@ msgstr "cue %1"
 
 #: editor_markers.cc:794
 msgid "verse"
-msgstr ""
+msgstr "couplet"
 
 #: editor_markers.cc:796
 msgid "mark"
@@ -7636,7 +7643,7 @@ msgstr "réinitialiser le gain"
 
 #: editor_ops.cc:6584
 msgid "region polarity invert"
-msgstr ""
+msgstr "inversion de la polarité de la région"
 
 #: editor_ops.cc:6618
 msgid "region gain envelope active"
@@ -9584,11 +9591,11 @@ msgstr "Niveau de départ à 0 dB"
 
 #: foldback_strip.cc:301
 msgid "Set send post fader"
-msgstr "Paramétrer l'envoi en post fader"
+msgstr "Paramétrer l'envoi en post-atténuateur"
 
 #: foldback_strip.cc:304
 msgid "Set send pre fader"
-msgstr "Paramétrer l'envoi en pré fader"
+msgstr "Paramétrer l'envoi en pré-atténuateur"
 
 #: foldback_strip.cc:308
 msgid "Remove This Send"
@@ -9713,7 +9720,7 @@ msgstr "%1"
 
 #: gain_meter.cc:168 gain_meter.cc:973
 msgid "Fader automation mode"
-msgstr "Mode d'automation du gain"
+msgstr "Atténuateur d'automatisation du gain"
 
 #: gain_meter.cc:169
 msgid "dBFS - Digital Peak Hold. Click to reset."
@@ -9882,11 +9889,11 @@ msgstr "Ajouter un sous-groupe de bus"
 
 #: group_tabs.cc:400
 msgid "Add New Aux Bus (pre-fader)"
-msgstr "Ajouter un nouveau bus auxiliaire (pré-fader)"
+msgstr "Ajouter un nouveau bus auxiliaire (pré-atténuateur)"
 
 #: group_tabs.cc:402
 msgid "Add New Aux Bus (post-fader)"
-msgstr "Ajouter un nouveau bus auxiliaire (post-fader)"
+msgstr "Ajouter un nouveau bus auxiliaire (post-atténuateur)"
 
 #: group_tabs.cc:429
 msgid "Assign Selection to VCA..."
@@ -11097,16 +11104,18 @@ msgid "paste"
 msgstr "coller"
 
 #: midi_region_view.cc:4814
+#, fuzzy
 msgid "split notes"
-msgstr ""
+msgstr "Fractionner les notes"
 
 #: midi_region_view.cc:4835
+#, fuzzy
 msgid "split notes more"
-msgstr ""
+msgstr "Fractionner plus les notes"
 
 #: midi_region_view.cc:4860
 msgid "split notes less"
-msgstr ""
+msgstr "Fractionner moins les notes"
 
 #: midi_region_operations_box.cc:48
 msgid "MIDI Region Operations:"
@@ -11625,11 +11634,11 @@ msgstr "E/S strictes"
 
 #: mixer_strip.cc:1146
 msgid "Record Pre-Fader"
-msgstr "Enregistrement pré-fader"
+msgstr "Enregistrement pré-atténuateur"
 
 #: mixer_strip.cc:1147
 msgid "Record Post-Fader"
-msgstr "Enregistrement post-fader"
+msgstr "Enregistrement post-atténuateur"
 
 #: mixer_strip.cc:1148
 msgid "Custom Record+Playback Positions"
@@ -12156,11 +12165,11 @@ msgstr "Les contrôles de solo affectent le solo-en-place"
 
 #: monitor_section.cc:163
 msgid "Solo controls toggle after-fader-listen"
-msgstr "Les contrôles solos permettent de basculer l'écoute-après-fader"
+msgstr "Les contrôles solos permettent de basculer l'écoute-après-atténuateur"
 
 #: monitor_section.cc:169
 msgid "Solo controls toggle pre-fader-listen"
-msgstr "Les contrôles de solo sont pré-fader"
+msgstr "Les contrôles de solo sont pré-atténuateur"
 
 #: monitor_section.cc:175
 msgid "Excl. Solo"
@@ -12300,11 +12309,11 @@ msgstr "Solo-en-place"
 
 #: monitor_section.cc:974
 msgid "After Fade Listen (AFL) solo"
-msgstr "Solo après fader (AFL)"
+msgstr "Solo après atténuateur (AFL)"
 
 #: monitor_section.cc:976
 msgid "Pre Fade Listen (PFL) solo"
-msgstr "Solo pré fader (PFL)"
+msgstr "Solo pré atténuateur (PFL)"
 
 #: monitor_section.cc:979
 msgid "Toggle exclusive solo mode"
@@ -12654,6 +12663,8 @@ msgstr "  -P, --no-connect-ports      Ne connecter aucun port au démarrage\n"
 #: opts.cc:87
 msgid "  -s, --no-strobe             Avoid \"strobe-like\" effects in GUI\n"
 msgstr ""
+"  -s, --no-strobe             Éviter les effets \"stroboscopiques\" dans "
+"l'interface graphique\n"
 
 #: opts.cc:88
 msgid "  -S, --sync                  Draw the GUI synchronously\n"
@@ -12693,7 +12704,7 @@ msgstr "Panoramique"
 
 #: panner_ui.cc:78
 msgid "Pan automation mode"
-msgstr "Mode d'automation du panoramique"
+msgstr "Mode d'automatisation du panoramique"
 
 #: panner_ui.cc:181
 msgid "Abs"
@@ -13094,6 +13105,9 @@ msgid ""
 "This starts a fresh scan, dropping all cached plugin data and ignorelist. "
 "Depending on the number of plugins installed this can take a long time."
 msgstr ""
+"Cela démarre une nouvelle analyse, en supprimant toutes les données de "
+"greffons mises en cache et la liste des ignorés. Selon le nombre de greffons "
+"installés, cela peut prendre beaucoup de temps."
 
 #: plugin_pin_dialog.cc:63
 msgid "Manual Config"
@@ -14081,7 +14095,7 @@ msgid ""
 "Do you really want to remove all pre-fader processors from %1?\n"
 "(this cannot be undone)"
 msgstr ""
-"Voulez-vous vraiment supprimer tous les traitements pré-fader de %1 ?\n"
+"Voulez-vous vraiment supprimer tous les traitements pré-atténuateur de %1 ?\n"
 "(ceci ne pourra pas être annulé)"
 
 #: processor_box.cc:3911
@@ -14089,7 +14103,7 @@ msgid ""
 "Do you really want to remove all post-fader processors from %1?\n"
 "(this cannot be undone)"
 msgstr ""
-"Voulez vous vraiment supprimer tous les traitements post-fader d'%1 ?\n"
+"Voulez vous vraiment supprimer tous les traitements post-atténuateur d'%1 ?\n"
 "(ceci ne pourra pas être annulé)"
 
 #: processor_box.cc:4136
@@ -14134,11 +14148,11 @@ msgstr "Supprimer (tout)"
 
 #: processor_box.cc:4156
 msgid "Clear (pre-fader)"
-msgstr "Supprimer (pré-fader)"
+msgstr "Supprimer (pré-atténuateur)"
 
 #: processor_box.cc:4158
 msgid "Clear (post-fader)"
-msgstr "Supprimer (post-fader)"
+msgstr "Supprimer (post-atténuateur)"
 
 #: processor_box.cc:4188
 msgid "Activate All"
@@ -14158,11 +14172,11 @@ msgstr "E/S disque ..."
 
 #: processor_box.cc:4201
 msgid "Pre-Fader"
-msgstr "Pré-fader"
+msgstr "Pré-atténuateur"
 
 #: processor_box.cc:4202
 msgid "Post-Fader"
-msgstr "Post-fader"
+msgstr "Post-atténuateur"
 
 #: processor_box.cc:4607
 msgid "%1: %2 (by %3) [%4]"
@@ -14442,7 +14456,7 @@ msgstr ""
 
 #: rc_option_editor.cc:1149
 msgid "Scan Time Out"
-msgstr "Temps Maxi de Scan"
+msgstr "Temps Maxi d'analyse"
 
 #: rc_option_editor.cc:1157
 msgid "1 sec"
@@ -14799,7 +14813,7 @@ msgstr "Thème"
 
 #: rc_option_editor.cc:2523
 msgid "Color faders with track/bus colors"
-msgstr "Chariots de la couleur de la piste/du bus"
+msgstr "Atténuateurs de la couleur de la piste/du bus"
 
 #: rc_option_editor.cc:2530
 msgid "Draw \"flat\" buttons"
@@ -14854,14 +14868,17 @@ msgid "Blink Alert Indicators"
 msgstr "Indicateurs d'alerte clignotants"
 
 #: rc_option_editor.cc:2612
+#, fuzzy
 msgid "Avoid strobing/blinking/flashing elements"
-msgstr ""
+msgstr "Éviter les éléments stroboscopiques/clignotants/flashants"
 
 #: rc_option_editor.cc:2617
 msgid ""
 "If enabled, disables meters in editor &amp; mixer, running clock updates and "
 "most blinking."
 msgstr ""
+"Si activées, désactive les compteurs dans l'éditeur &amp ; mixer, les mises "
+"à jour de l'horloge en cours et la plupart des clignotements."
 
 #: rc_option_editor.cc:2620 rc_option_editor.cc:2633
 msgid "Appearance/Recorder"
@@ -14905,7 +14922,7 @@ msgstr "Afficher les noms de région"
 
 #: rc_option_editor.cc:2664
 msgid "Show Selection Marker"
-msgstr ""
+msgstr "Afficher les repères de sélection"
 
 #: rc_option_editor.cc:2675
 msgid "Waveforms color gradient depth"
@@ -15646,24 +15663,29 @@ msgstr ""
 "sélection d'unité de la grille"
 
 #: rc_option_editor.cc:3445
+#, fuzzy
 msgid "Snap Target Mode:"
-msgstr ""
+msgstr "Mode cibles aimantées :"
 
 #: rc_option_editor.cc:3449
+#, fuzzy
 msgid "When the Grid is enabled, snap to"
-msgstr ""
+msgstr "Lorsque la grille est activée, aimanter dessus"
 
 #: rc_option_editor.cc:3454
+#, fuzzy
 msgid "Snap Targets"
-msgstr ""
+msgstr "Cibles aimantées"
 
 #: rc_option_editor.cc:3455
+#, fuzzy
 msgid "Both the Grid and Snap Targets"
-msgstr ""
+msgstr "La grille et les cibles aimantées"
 
 #: rc_option_editor.cc:3458
+#, fuzzy
 msgid "Snap Targets:"
-msgstr ""
+msgstr "Cibles aimantée :"
 
 #: rc_option_editor.cc:3479
 msgid "Region Sync Points"
@@ -15711,6 +15733,8 @@ msgstr "Edition"
 #: rc_option_editor.cc:3535
 msgid "When drawing new notes, select only the last drawn note"
 msgstr ""
+"Lors du dessin de nouvelles notes, seule la dernière note dessinée est "
+"sélectionnée."
 
 #: rc_option_editor.cc:3543
 msgid "Scroll wheel use when editing MIDI adjusts selected note velocity"
@@ -15894,6 +15918,11 @@ msgid ""
 "<b>When disabled</b> rewind/ffwd controls will gradually speed up/slow down "
 "playback"
 msgstr ""
+"<b>Si activées</b> les commandes de rembobinage et de défilement changent "
+"immédiatement le sens de la lecture, le cas échéant.\n"
+"\n"
+"<b>Si désactivées</b> les commandes de rembobinage et de défilement "
+"accélèrent ou ralentissent progressivement la lecture."
 
 #: rc_option_editor.cc:3698
 msgid "Allow auto-return after rewind/ffwd operations"
@@ -15909,6 +15938,12 @@ msgid ""
 "<b>When disabled</b> the playhead will never auto-return after rewind/ffwd "
 "operations"
 msgstr ""
+"<b>Si activées</b> Si le retour automatique est activé, la tête de lecture "
+"reviendra automatiquement après les opérations de rembobinage et de "
+"défilement.\n"
+"\n"
+"<b>Si désactivées</b> la tête de lecture ne reviendra jamais automatiquement "
+"après les opérations de rembobinage/débobinage."
 
 #: rc_option_editor.cc:3711
 msgid "Preroll"
@@ -16092,7 +16127,7 @@ msgstr "Résolution BPM pour l'horloge MIDI entrante"
 
 #: rc_option_editor.cc:3832
 msgid "quarters"
-msgstr ""
+msgstr "noires"
 
 #: rc_option_editor.cc:3836
 msgid ""
@@ -16616,11 +16651,11 @@ msgstr "Position d'écoute"
 
 #: rc_option_editor.cc:4387
 msgid "after-fader (AFL)"
-msgstr "post-fader (AFL)"
+msgstr "post-atténuateur (AFL)"
 
 #: rc_option_editor.cc:4388
 msgid "pre-fader (PFL)"
-msgstr "pré-fader (PFL)"
+msgstr "pré-atténuateur (PFL)"
 
 #: rc_option_editor.cc:4394
 msgid "PFL signals come from"
@@ -16628,11 +16663,11 @@ msgstr "Les signaux PFL sont prélevés"
 
 #: rc_option_editor.cc:4399
 msgid "before pre-fader processors"
-msgstr "avant les traitements pré-fader"
+msgstr "avant les traitements pré-atténuateur"
 
 #: rc_option_editor.cc:4400
 msgid "pre-fader but after pre-fader processors"
-msgstr "après les traitements pré-fader"
+msgstr "après les traitements pré-atténuateur"
 
 #: rc_option_editor.cc:4406
 msgid "AFL signals come from"
@@ -16640,11 +16675,11 @@ msgstr "Les signaux AFL sont prélevés"
 
 #: rc_option_editor.cc:4411
 msgid "immediately post-fader"
-msgstr "immédiatement post-fader"
+msgstr "immédiatement post-atténuateur"
 
 #: rc_option_editor.cc:4412
 msgid "after post-fader processors (before pan)"
-msgstr "après les traitements post-fader (avant panoramique)"
+msgstr "après les traitements post-atténuateur (avant panoramique)"
 
 #: rc_option_editor.cc:4418
 msgid "Master"
@@ -16724,11 +16759,11 @@ msgstr "Muet : options par défaut piste / bus"
 
 #: rc_option_editor.cc:4465
 msgid "Mute affects pre-fader sends"
-msgstr "Muet affecte les départs pré-fader"
+msgstr "Muet affecte les départs pré-atténuateur"
 
 #: rc_option_editor.cc:4473
 msgid "Mute affects post-fader sends"
-msgstr "Muet affecte les départs post-fader"
+msgstr "Muet affecte les départs post-atténuateur"
 
 #: rc_option_editor.cc:4481
 msgid "Mute affects control outputs"
@@ -16832,7 +16867,7 @@ msgstr "Bandeau de mesure"
 
 #: rc_option_editor.cc:4603
 msgid "Peak hold time"
-msgstr "Durée de maintien du pic"
+msgstr "Durée de maintien de crête"
 
 #: rc_option_editor.cc:4609
 msgid "short"
@@ -17509,7 +17544,7 @@ msgstr "Déviation de Phase"
 
 #: rhythm_ferret.cc:62
 msgid "Kullback-Liebler"
-msgstr ""
+msgstr "Kullback-Liebler"
 
 #: rhythm_ferret.cc:63
 msgid "Modified Kullback-Liebler"
@@ -17810,11 +17845,11 @@ msgstr "Paramètres %1 - %2"
 
 #: route_time_axis.cc:2346 vca_master_strip.cc:228 vca_time_axis.cc:274
 msgid "After-fade listen (AFL)"
-msgstr "Écoute après fader (AFL)"
+msgstr "Écoute après atténuateur (AFL)"
 
 #: route_time_axis.cc:2350 vca_master_strip.cc:232 vca_time_axis.cc:278
 msgid "Pre-fade listen (PFL)"
-msgstr "Écoute avant fader (PFL)"
+msgstr "Écoute avant atténuateur (PFL)"
 
 #: route_ui.cc:209
 msgid ""
@@ -17847,7 +17882,7 @@ msgstr ""
 msgid "Show the strips that send to this bus, and control them from the faders"
 msgstr ""
 "Afficher les voies alimentant ce bus, et régler leurs départs avec leurs "
-"faders"
+"atténuateurs"
 
 #: route_ui.cc:242
 msgid "Monitor input"
@@ -17867,35 +17902,35 @@ msgstr "Entrée pas-à-pas"
 
 #: route_ui.cc:1050
 msgid "Assign all tracks (prefader)"
-msgstr "Assigner toutes les pistes (pré-fader)"
+msgstr "Assigner toutes les pistes (pré-atténuateur)"
 
 #: route_ui.cc:1054
 msgid "Assign all tracks and busses (prefader)"
-msgstr "Assigner toutes les pistes et tous les bus (préfader)"
+msgstr "Assigner toutes les pistes et tous les bus (pré-atténuateur)"
 
 #: route_ui.cc:1058
 msgid "Assign all tracks (postfader)"
-msgstr "Assigner toutes les pistes (post-fader)"
+msgstr "Assigner toutes les pistes (post-atténuateur)"
 
 #: route_ui.cc:1062
 msgid "Assign all tracks and busses (postfader)"
-msgstr "Assigner toutes les pistes et tous les bus (postfader)"
+msgstr "Assigner toutes les pistes et tous les bus (post-atténuateur)"
 
 #: route_ui.cc:1067
 msgid "Assign selected tracks (prefader)"
-msgstr "Assigner les pistes sélectionnées (pré-fader)"
+msgstr "Assigner les pistes sélectionnées (pré-atténuateur)"
 
 #: route_ui.cc:1072
 msgid "Assign selected tracks and busses (prefader)"
-msgstr "Assigner les pistes et les bus sélectionnés (préfader)"
+msgstr "Assigner les pistes et les bus sélectionnés (pré-atténuateur)"
 
 #: route_ui.cc:1076
 msgid "Assign selected tracks (postfader)"
-msgstr "Assigner les pistes sélectionnées (post-fader)"
+msgstr "Assigner les pistes sélectionnées (post-atténuateur)"
 
 #: route_ui.cc:1081
 msgid "Assign selected tracks and busses (postfader)"
-msgstr "Assigner les pistes et les bus sélectionnés (postfader)"
+msgstr "Assigner les pistes et les bus sélectionnés (post-atténuateur)"
 
 #: route_ui.cc:1087
 msgid "Copy track/bus gains to sends"
@@ -17915,11 +17950,11 @@ msgstr "Isoler le solo"
 
 #: route_ui.cc:1455
 msgid "Pre Fader Sends"
-msgstr "Départs pré-fader"
+msgstr "Départs pré-atténuateur"
 
 #: route_ui.cc:1461
 msgid "Post Fader Sends"
-msgstr "Départs post-fader"
+msgstr "Départs post-atténuateur"
 
 #: route_ui.cc:1467
 msgid "Control Outs"
@@ -18845,7 +18880,7 @@ msgstr "Boutons d'écoute de contrôle"
 
 #: session_option_editor.cc:343
 msgid "Fader as Gain Knob"
-msgstr "Fader comme bouton de gain"
+msgstr "Atténuateur comme bouton de gain"
 
 #: session_option_editor.cc:348
 msgid "Name Labels"
@@ -20813,11 +20848,11 @@ msgstr "Arreter les Cues %1"
 
 #: trigger_page.cc:795
 msgid "Stop all cues now"
-msgstr "Arreter tous les Cues maintenant"
+msgstr "Arreter toutes les Cues maintenant"
 
 #: trigger_page.cc:796
 msgid "Stop all cues soon"
-msgstr "Arreter tous les Cues bientôt"
+msgstr "Arreter toutes les Cues bientôt"
 
 #: trigger_master.cc:129
 msgid ""
