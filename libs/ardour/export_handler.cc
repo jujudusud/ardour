@@ -40,6 +40,7 @@
 #include "ardour/export_format_specification.h"
 #include "ardour/export_filename.h"
 #include "ardour/soundcloud_upload.h"
+#include "ardour/surround_return.h"
 #include "ardour/system_exec.h"
 #include "pbd/openuri.h"
 #include "pbd/basename.h"
@@ -227,6 +228,11 @@ ExportHandler::start_timespan ()
 	post_processing = false;
 	session.ProcessExport.connect_same_thread (process_connection, boost::bind (&ExportHandler::process, this, _1));
 	process_position = current_timespan->get_start();
+
+	if (!region_export && !current_timespan->vapor ().empty () && session.surround_master ()) {
+		session.surround_master ()->surround_return ()->setup_export (current_timespan->vapor (), current_timespan->get_start (), current_timespan->get_end ());
+	}
+
 	// TODO check if it's a RegionExport.. set flag to skip  process_without_events()
 	return session.start_audio_export (process_position, realtime, region_export);
 }
@@ -377,6 +383,10 @@ ExportHandler::start_timespan_bg (void* eh)
 void
 ExportHandler::finish_timespan ()
 {
+	if (/*!region_export &&*/ !current_timespan->vapor ().empty () && session.surround_master ()) {
+		session.surround_master ()->surround_return ()->finalize_export ();
+	}
+
 	graph_builder->get_analysis_results (export_status->result_map);
 
 	/* work-around: split-channel will produce several files
@@ -660,6 +670,9 @@ ExportHandler::export_cd_marker_file (ExportTimespanPtr timespan, ExportFormatSp
 		}
 
 	} catch (std::exception& e) {
+		error << string_compose (_("an error occurred while writing a TOC/CUE file: %1"), e.what()) << endmsg;
+		::g_unlink (filepath.c_str());
+	} catch (Glib::ConvertError const& e) {
 		error << string_compose (_("an error occurred while writing a TOC/CUE file: %1"), e.what()) << endmsg;
 		::g_unlink (filepath.c_str());
 	} catch (Glib::Exception& e) {
@@ -1009,7 +1022,7 @@ ExportHandler::cue_escape_cdtext (const std::string& txt)
 	std::string out;
 
 	try {
-		latin1_txt = Glib::convert (txt, "ISO-8859-1", "UTF-8");
+		latin1_txt = Glib::convert_with_fallback (txt, "ISO-8859-1", "UTF-8", "_");
 	} catch (Glib::ConvertError& err) {
 		throw Glib::ConvertError (err.code(), string_compose (_("Cannot convert %1 to Latin-1 text"), txt));
 	}

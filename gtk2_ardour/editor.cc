@@ -4558,6 +4558,7 @@ Editor::get_grid_type_as_beats (bool& success, timepos_t const & position)
 		return Temporal::Beats::from_double (tmap->meter_at (position).note_value() / 128.0);
 
 	case GridTypeBeatDiv3:  //Triplet eighth
+		return Temporal::Beats::from_double (tmap->meter_at (position).note_value() / 12.0);
 
 	case GridTypeBeatDiv6:
 		return Temporal::Beats::from_double (tmap->meter_at (position).note_value() / 24.0);
@@ -5962,7 +5963,7 @@ Editor::add_stripables (StripableList& sl)
 
 		} else if ((r = std::dynamic_pointer_cast<Route> (*s)) != 0) {
 
-			if (r->is_auditioner() || r->is_monitor()) {
+			if (r->is_auditioner() || r->is_monitor() || r->is_surround_master ()) {
 				continue;
 			}
 
