@@ -21855,7 +21855,7 @@ msgstr "Encodage vidéo..."
 
 #: export_video_dialog.cc:676
 msgid "Export Video: Video input file cannot be read."
-msgstr "Exportation vidéo : le fichier vidéo d'entrée ne peut être lu."
+msgstr "Export vidéo : le fichier vidéo d'entrée ne peut être lu."
 
 #: export_video_dialog.cc:777
 msgid "Transcoding failed."
