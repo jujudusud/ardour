@@ -21846,7 +21846,7 @@ msgstr ""
 #: export_video_dialog.cc:608
 msgid "Export Video: No Master Out Ports to Connect for Audio Export"
 msgstr ""
-"Exportation vidéo : aucun port de sortie principal auquel se connecter pour "
+"Export vidéo : aucun port de sortie principal auquel se connecter pour "
 "l'export audio"
 
 #: export_video_dialog.cc:655
@@ -21855,7 +21855,7 @@ msgstr "Encodage vidéo..."
 
 #: export_video_dialog.cc:676
 msgid "Export Video: Video input file cannot be read."
-msgstr "Export vidéo : le fichier vidéo d'entrée ne peut être lu."
+msgstr "Exportation vidéo : le fichier vidéo d'entrée ne peut être lu."
 
 #: export_video_dialog.cc:777
 msgid "Transcoding failed."
